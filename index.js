@@ -16,5 +16,9 @@ function rectangleArea(){
 }
 //parallelogram
 function parallelogramArea(){
-       
+    const base = inputValueById('parallelogram-base')
+    const height =inputValueById('parallelogram-height')
+    validateInput(base,height)
+    const area = base*height
+    setInnerText('parallelogram-area',area)
 }
