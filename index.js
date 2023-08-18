@@ -29,5 +29,12 @@ function rhombusArea(){
     validateInput(diagonal1,diagonal1)
     const area = 0.5*diagonal1*diagonal2;
     setInnerText('rhombus-area',area)
-
+}
+//pentagonal
+function pentagonArea(){
+    const parameter = inputValueById('pentagon-parameter')
+    const apothem = inputValueById('pentagon-apothem')
+    validateInput(parameter,apothem)
+    const area = 0.5*parameter*apothem;
+    setInnerText('pentagon-area',area)
 }
