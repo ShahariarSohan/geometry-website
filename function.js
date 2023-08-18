@@ -10,8 +10,8 @@ function setInnerText(elementId,areaValue){
     area.innerText = areaValue;
 }
 // validation
-function validateInput(value1,value2){
-    if(isNaN(value1) || isNaN(value2)){
-        alert('Please give valid input')
-    }
-}
+// function validateInput(value1,value2){
+//     if(isNaN(value1) || isNaN(value2)){
+//         alert('Please give valid input')
+//     }
+// }
