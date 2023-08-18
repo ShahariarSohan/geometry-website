@@ -1,7 +1,7 @@
 // take input
 function inputValueById(inputId){
      const input = document.getElementById(inputId).value
-     const inputValue = parseFloat(input);
+     const inputValue = parseFloat(input).toFixed(3);
      return inputValue;
 }
 //set area

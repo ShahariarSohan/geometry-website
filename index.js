@@ -6,3 +6,15 @@ function triangleArea(){
     const area = 0.5*base*height;
     setInnerText('triangle-area',area)
 }
+//rectangle
+function rectangleArea(){
+    const width = inputValueById('rectangle-width')
+    const length = inputValueById('rectangle-length')
+    validateInput(width,length);
+    const area = width*length;
+    setInnerText('rectangle-area',area)
+}
+//parallelogram
+function parallelogramArea(){
+       
+}
