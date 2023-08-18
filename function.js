@@ -11,9 +11,14 @@ function setInnerText(elementId,areaValue){
 }
 function showCalculation(name,value){
     const newDiv =document.getElementById('calculate')
-    const p = document.createElement('p')
-    p.innerText = name+ ' : '+ value + ' '+'cm^2'
-    newDiv.appendChild(p);
+    const p1 = document.createElement('p')
+    p1.innerText = name+ ' : '+ value +'cm^2'
+    newDiv.appendChild(p1);
+    const p2 = document.createElement('p')
+    newDiv.appendChild(p2)
+    p2.innerHTML =`<button class=" text-white font-bold p-2 bg-violet-800  rounded-md">convert m<sup>2</sup></button>
+    `
+    
 }
 
 
