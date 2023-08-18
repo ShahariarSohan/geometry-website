@@ -9,7 +9,7 @@ function triangleArea(){
     }
     const area = 0.5*base*height;
     setInnerText('triangle-area',area)
-    
+   showCalculation('Triangle Area',area)
 }
 //rectangle area
 function rectangleArea(){
@@ -22,6 +22,8 @@ function rectangleArea(){
     }
     const area = width*length;
     setInnerText('rectangle-area',area)
+   showCalculation('Rectangle Area',area)
+
 }
 
 //parallelogram area
@@ -35,6 +37,8 @@ function parallelogramArea(){
     }
     const area = base*height
     setInnerText('parallelogram-area',area)
+   showCalculation('Parallelogram Area',area)
+
 }
 
 //rhombus area
@@ -48,6 +52,8 @@ function rhombusArea(){
     }
     const area = 0.5*diagonal1*diagonal2;
     setInnerText('rhombus-area',area)
+   showCalculation('Rhombus Area',area)
+
 }
 //pentagon area
 function pentagonArea(){
@@ -60,6 +66,7 @@ function pentagonArea(){
     }
     const area = 0.5*parameter*apothem;
     setInnerText('pentagon-area',area)
+   showCalculation('Pentagon Area',area)
 }
 //ellipse area 
 function ellipseArea(){
@@ -71,5 +78,6 @@ function ellipseArea(){
         return
     }
     const area = 3.14*base*height;
-    setInnerText('ellipse-area',area)    
+    setInnerText('ellipse-area',area)
+   showCalculation('Ellipse Area',area)
 }
