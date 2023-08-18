@@ -9,7 +9,7 @@ function triangleArea(){
     }
     const area = 0.5*base*height;
     setInnerText('triangle-area',area)
-
+    
 }
 //rectangle area
 function rectangleArea(){
